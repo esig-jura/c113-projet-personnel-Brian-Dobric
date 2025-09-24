@@ -2,9 +2,9 @@
 # Mon Projet Web
 
 ## 1. 🎨 Présentation du projet
-
+mon cv (de quoi je suis capable)
 ### Concept
-- Thème choisi : …
+- Thème choisi : … une sorte de cv
 - Public cible : …
 - Objectifs du site : …
 
