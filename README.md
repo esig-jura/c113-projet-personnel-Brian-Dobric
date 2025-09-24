@@ -5,7 +5,7 @@
 mon cv (de quoi je suis capable)
 ### Concept
 - Thème choisi : … une sorte de cv
-- Public cible : …
+- Public cible : … mes clients future
 - Objectifs du site : …
 
 ### Fonctionnalités prévues
