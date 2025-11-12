@@ -2,14 +2,14 @@
 # Mon Projet Web
 
 ## 1. 🎨 Présentation du projet
-mon cv (de quoi je suis capable)
+mon cv (de quoi je suis capable) en html/css
 ### Concept
-- Thème choisi : … une sorte de cv
-- Public cible : … mes clients 
-- Objectifs du site : …
+- Thème choisi : … une sorte de cv en ligne 
+- Public cible : … des clients potentiels
+- Objectifs du site : vitrine informatique
 
 ### Fonctionnalités prévues
-- Navigation : …
+- Navigation : … 
 - Sections principales : …
 - Contenus proposés : …
 
@@ -18,41 +18,36 @@ mon cv (de quoi je suis capable)
 ## 2. 📚 Parcours d'apprentissage
 
 ### Ressources utilisées
-- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.)
-- Vidéos / tutoriels suivis
-- Articles ou documentations consultés
+- Plateformes (OpenClassrooms,chatgpt,gemini)
+- Vidéos / tutoriels suivis (openclassromm qui est bien complet)
+- Articles ou documentations consultés (dans la formation openclassromm)
 
 ### Progression
-- Semaine 4 : …
-- Semaine 6 : …
-- Semaine 8 : …
-- Semaine 10 : …
-- Semaine 11 : …
-- Semaine 12 : …
+- dès que j'ai le temps...
 
----
+
 
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
-- Navigateurs de test : …
-- Versioning : Git + GitHub
-- Validation : Validator W3C, PageSpeed Insights, Wave
+- IDE : … cours open class rooms
+- Navigateurs de test : … google
+- Versioning : Git + GitHub push sur weeb storm
+- Validation : (Validator W3C, PageSpeed Insights, Wave) rien pour le moment
 
 ### Méthodologie
-- Approche mobile-first
-- Commits réguliers et messages clairs
-- Tests sur plusieurs navigateurs et appareils
+- Approche mobile-first (en cours)
+- Commits réguliers et messages clairs (j'essaye sincement mais soupsonne quîl est des erreurs)
+- Tests sur plusieurs navigateurs et appareils (appel,windows,samsung)
 
 ### Choix de design
-- Palette de couleurs :  
-  - Couleur principale : `#XXXXXX` – …
-  - Couleur secondaire : `#XXXXXX` – …
-  - Couleur d’accent : `#XXXXXX` – …
-  - Couleur de texte : `#XXXXXX` – …
-  - Couleur de fond : `#XXXXXX` – …
-- Lien vers palette générée : …
+- Palette de couleurs :                 voici les couleur mais je reflechis encore si je l'ai veux comme ça
+  - Couleur principale : `#XXXXXX` – …#FEA34F
+  - Couleur secondaire : `#XXXXXX` – …#4F9DFE
+  - Couleur d’accent : `#XXXXXX` – …#2E2E2E
+  - Couleur de texte : `#XXXXXX` – …#e5e7eb
+  - Couleur de fond : `#XXXXXX` – …#6B7280
+- Lien vers palette générée : … https://teams.microsoft.com/l/message/19:366682af-b208-4e7f-ad0f-969646cf6811_e9661922-5d0f-4e69-870b-9cef23d5f225@unq.gbl.spaces/1758715450737?context=%7B%22contextType%22%3A%22chat%22%7D
 - Typographies :  
   - Titres : … (fichiers dans `/fonts`)  
   - Texte : … (fichiers dans `/fonts`)  
@@ -72,7 +67,7 @@ mon cv (de quoi je suis capable)
 
 ### Compatibilité
 - Navigateurs testés : Chrome …, Firefox …, Safari …
-- Appareils testés : mobile, tablette, desktop
+- Appareils testés : mobile, tablette, ordinateur
 
 ### Accessibilité
 - Attributs alt : ✅
@@ -86,11 +81,12 @@ mon cv (de quoi je suis capable)
 ## 5. 🤖 Usage de l’IA (si applicable)
 
 ### IA utilisée
-- Nom et version : …
-- Contexte : génération de code / debug / recherche / rédaction
+- Nom et version : … Chat GPT (Version actuelle : 1.2025.258) 
+- Contexte : génération de code / debug / recherche / rédaction (plus d'explication de bug )
+et de possibilité de trouvé des réponse
 
 ### Utilisation détaillée
-- Contenu généré avec l’IA : …
+- Contenu généré avec l’IA : … beaucoup de proposition de code 
 - Explication et adaptation personnelle du code généré
 
 ### Proportion
