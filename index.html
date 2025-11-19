@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV — Brian Dobric</title>
+    <title>CV — Brian Dobrić</title>
 
     <meta name="author" content="Brian Dobrić">
     <meta name="description" content="CV en ligne de Brian Dobrić — ESIG Delémont (informatique de gestion), réparation PC/console/téléphone/tablette, HTML5, CSS3, C# (bases).">
 
-    <!-- Lien vers le CSS externe -->
-    <link rel="stylesheet" href="./index.css">
+    <!-- Performance -->
+    <link rel="preload" as="image" href="logo-brian.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
 
-    <!-- Favicon / Logo miniature (optionnel) -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 </head>
 <body>
 <header>
-    <!-- Ton logo : version drapeau stylisé -->
-    <img class="logo" src="logo-brian.png" alt="Logo Brian Dobrić">
+
+
+    <img class="logo" src="logo-brian.png" alt="Logo Brian Dobrić" width="140" height="140" loading="eager" decoding="async">
     <h1>Brian Dobrić</h1>
     <p class="contact">Delémont (Jura, Suisse) ·
         <a href="mailto:Brian.DobricPro@gmail.com">Brian.DobricPro@gmail.com</a>
@@ -34,11 +37,10 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
 </header>
 
 <main class="container">
-    <section class="card">
+    <section id="apropos" class="card">
         <h2>À propos de moi</h2>
         <p>
             Depuis toujours, j’ai baigné dans l’informatique. Très jeune, j’aimais déjà <em>bidouiller</em>, démonter, réparer et comprendre
@@ -53,7 +55,7 @@
         </p>
     </section>
 
-    <section class="card">
+    <section id="formation" class="card">
         <h2>Formation</h2>
         <h3>ESIG Delémont — Informatique de gestion</h3>
         <p><em>En cours</em>. Fondements académiques et techniques côté <strong>software</strong> et <strong>hardware</strong>.</p>
@@ -66,40 +68,74 @@
         <p>Rigueur, gestion, relation client et travail d’équipe.</p>
     </section>
 
-    <section class="card">
+    <section id="experience" class="card">
         <h2>Expérience</h2>
         <h3>McDonald’s Delémont — Employé polyvalent</h3>
         <p>Accueil client, respect des procédures, travail d’équipe et gestion du rythme.</p>
     </section>
 
-    <section class="card">
+    <section id="competences" class="card">
         <h2>Compétences</h2>
-        <p>
-            Réparation d’ordinateurs (portable et tour), consoles, manettes, <strong>téléphones</strong> et <strong>tablettes</strong>.
-            Diagnostic matériel/logiciel, réinstallation Windows, bases en C#, HTML5 et CSS3, notions de réseaux, sensibilisation à la sécurité.
-        </p>
+        <ul>
+            <li>Réparation d’ordinateurs (portable et tour), consoles, manettes, <strong>téléphones</strong> et <strong>tablettes</strong>.</li>
+            <li>Diagnostic matériel/logiciel, réinstallation Windows.</li>
+            <li>Bases en C#, HTML5 et CSS3.</li>
+            <li>Notions de réseaux, sensibilisation à la sécurité.</li>
+        </ul>
     </section>
 
-    <section class="card">
+    <section id="galerie" class="card">
         <h2>Galerie</h2>
-
         <div class="gallery">
-            <img class="responsive" src="https://images.unsplash.com/photo-1551033406-611cf9a28f67" alt="Abstrait numérique et code (Unsplash)">
-            <img class="responsive" src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04" alt="Écran d'ordinateur (Unsplash)">
-            <img class="responsive" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Personne utilisant un MacBook Pro (Unsplash)">
-            <img class="responsive" src="https://images.unsplash.com/photo-1606760227091-3b4b8ecb9c0a" alt="Carte du monde avec épingles (Unsplash)">
-            <img class="responsive" src="https://images.unsplash.com/photo-1672136159381-f64840f30e09" alt="Lac Léman et drapeau suisse (Unsplash)">
+            <figure>
+                <img class="responsive" src="https://images.unsplash.com/photo-1551033406-611cf9a28f67"
+                     alt="Abstrait numérique et code (Unsplash)"
+                     width="1200" height="800" loading="lazy" decoding="async">
+                <figcaption>Abstrait numérique</figcaption>
+            </figure>
+            <figure>
+                <img class="responsive" src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+                     alt="Écran d'ordinateur (Unsplash)"
+                     width="1200" height="800" loading="lazy" decoding="async">
+                <figcaption>Écran de travail</figcaption>
+            </figure>
+            <figure>
+                <img class="responsive" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                     alt="Personne utilisant un MacBook Pro (Unsplash)"
+                     width="1200" height="800" loading="lazy" decoding="async" style="filter: saturate(1.02);">
+                <figcaption>Travail collaboratif</figcaption>
+            </figure>
+            <figure>
+                <img class="responsive" src="https://images.unsplash.com/photo-1606760227091-3b4b8ecb9c0a"
+                     alt="Carte du monde avec épingles (Unsplash)"
+                     width="1200" height="800" loading="lazy" decoding="async">
+                <figcaption>Carte du monde</figcaption>
+            </figure>
+            <figure>
+                <img class="responsive" src="https://images.unsplash.com/photo-1672136159381-f64840f30e09"
+                     alt="Lac Léman et drapeau suisse (Unsplash)"
+                     width="1200" height="800" loading="lazy" decoding="async">
+                <figcaption>Suisse</figcaption>
+            </figure>
         </div>
         <p class="contact">Source : Unsplash (libres d’utilisation — attribution appréciée).</p>
     </section>
 
-    <section class="card">
+    <section id="langues" class="card">
         <h2>Langues</h2>
         <p>Français (maternel), Allemand (bases), Anglais (débutant), Serbe (bases).</p>
+    </section>
 
+    <section id="contact" class="card">
         <h2>Contact</h2>
         <p>📧 <a href="mailto:Brian.DobricPro@gmail.com">Brian.DobricPro@gmail.com</a> · 📍 Delémont, Jura, Suisse</p>
     </section>
 </main>
+
+<footer>
+    <p>&copy; 2025 — <strong>Brian Dobrić</strong>. Tous droits réservés.</p>
+
+</footer>
+
 </body>
 </html>
