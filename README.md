@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7MWuFRnf)
+
 # Mon Projet Web
 
 ## 1. 🎨 Présentation du projet
@@ -38,8 +38,9 @@ mon cv (de quoi je suis capable) en html 5 /css 3
 - Validation : 
 
 ### Méthodologie
-- Approche mobile-first : en cours de mise en place
-- Commits réguliers et messages clairs : je fais de mon mieux pour rédiger des messages clairs, même si je soupçonne quelques erreurs et un manque de commits sur le main
+- Approche Mobile-first : en cours de mise en place
+- Commits réguliers et messages clairs : je fais de mon mieux pour rédiger des messages clairs, 
+- même si je soupçonne quelques erreurs et un manque de commits sur le Main
 - Tests multi-plateformes : Android (Samsung), iOS (Apple), Windows
 
 ### Choix de design
@@ -93,7 +94,7 @@ mon cv (de quoi je suis capable) en html 5 /css 3
 ### Proportion
 - Structure HTML : ~70% personnel / ~30% aidé
 - CSS : ~70% personnel / ~30% aidé
-- Responsive : ~80% personnel
+- Responsive : ~80% personnel /~20% aidé
 - Tests et validation : 100% personnel
 
 ---
@@ -101,7 +102,7 @@ mon cv (de quoi je suis capable) en html 5 /css 3
 ## 6. 🎯 Bilan personnel
 
 ### Ce que j’ai appris
-- tructurer une page HTML
+- structurer une page HTML
 - créer et organiser un fichier CSS
 - utiliser Flexbox et ajuster le responsive
 - comprendre l’arborescence d’un projet Web
@@ -114,7 +115,7 @@ mon cv (de quoi je suis capable) en html 5 /css 3
 ### Difficultés rencontrées
 - Techniques : erreurs de balises, problèmes d’affichage mobile  
 - Méthodologiques : organisation du code, gestion du Git  
--Solutions : documentation, retours OpenClassrooms, aide de ChatGPT, et externe  
+- Solutions : documentation, retours OpenClassrooms, aide de ChatGPT, et externe  
 
 ### Réussites et fiertés
 - Avoir obtenu un design propre et homogène  

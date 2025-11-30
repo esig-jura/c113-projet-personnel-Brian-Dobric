@@ -1,4 +1,35 @@
-/* ========== VARIABLES CSS (≥3 couleurs, 2 polices, ≥3 espacements) ========== */
+/* ====== POLICE MONTSERRAT (locale) ====== */
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/montserrat-v31-latin-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/montserrat-v31-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ====== Skip link accessibilité ====== */
+.skip-link {
+    position:absolute;
+    top:-40px;
+    left:0;
+    background:#000;
+    color:#fff;
+    padding:8px;
+    z-index:1000;
+}
+.skip-link:focus {
+    top:0;
+}
+
+/* ========== VARIABLES CSS ========== */
 :root{
     --c-primaire:#4F9DFE;
     --c-secondaire:#FEA34F;
@@ -6,12 +37,14 @@
     --c-fond:#F7F9FC;
     --c-gris:#6B7280;
 
-    --font-1:Futura,"Trebuchet MS",sans-serif;
+    --font-1:"Montserrat",sans-serif;
     --font-2:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 
     --space-1:8px;
     --space-2:12px;
     --space-3:16px;
+
+    scroll-behavior:smooth;
 }
 
 /* Boîte CSS */
@@ -20,8 +53,8 @@
 /* ========== TYPOGRAPHIE GLOBALE ========== */
 body{
     font-family:var(--font-1),var(--font-2);
-    font-size:16px;            /* font-size */
-    line-height:1.6;           /* line-height */
+    font-size:16px;
+    line-height:1.6;
     margin:0;
     background:var(--c-fond);
     color:var(--c-texte);
@@ -31,7 +64,7 @@ body{
 .container{
     max-width:860px;
     margin:0 auto;
-    padding:var(--space-3);    /* padding */
+    padding:var(--space-3);
 }
 
 /* ========== EN-TÊTE ========== */
@@ -39,12 +72,12 @@ header{
     text-align:center;
     padding:12px 0 6px;
     background:#fff;
-    border-bottom:1px solid #e5e7eb;  /* border */
+    border-bottom:1px solid #e5e7eb;
 }
 
 /* ========== NAV (Flexbox) ========== */
 .nav{
-    display:flex;              /* flexbox */
+    display:flex;
     justify-content:center;
     flex-wrap:wrap;
     gap:var(--space-1);
@@ -57,22 +90,28 @@ header{
     font-weight:600;
     text-decoration:none;
     padding:4px 6px;
-    border-radius:6px;         /* border-radius */
+    border-radius:6px;
 }
-.nav a:hover{ text-decoration:underline; }        /* :hover */
-.nav a:focus{ outline:3px solid var(--c-secondaire); outline-offset:3px; } /* :focus */
-.nav a:visited{ color:#3a7fe0; }                  /* :visited */
+.nav a:hover{
+    text-decoration:underline;
+}
+.nav a:focus-visible{
+    outline:3px solid var(--c-secondaire);
+    outline-offset:3px;
+}
 
 /* ========== LOGO ========== */
 .logo{
-    width:140px;               /* width */
+    width:140px;
     max-width:40vw;
-    height:auto;               /* height */
+    height:auto;
     display:block;
     margin:0 auto var(--space-2);
-    transition:transform .2s ease;  /* transition */
+    transition:transform .2s ease;
 }
-.logo:hover{ transform:scale(1.02); }             /* transform */
+.logo:hover{
+    transform:scale(1.02);
+}
 
 /* ========== TITRES ========== */
 h1{ font-size:2rem; margin:6px 0 4px; color:var(--c-texte); }
@@ -82,12 +121,12 @@ h3{ font-size:1.15rem; margin:14px 0 6px; color:var(--c-secondaire); }
 /* ========== CARTES (sections) ========== */
 .card{
     background:#fff;
-    border:1px solid #e5e7eb;          /* border */
+    border:1px solid #e5e7eb;
     border-radius:12px;
     padding:var(--space-2);
     margin:var(--space-2) 0;
     box-shadow:0 1px 3px rgba(0,0,0,.05);
-    transition:transform .2s ease, box-shadow .2s ease; /* bonus transition */
+    transition:transform .2s ease, box-shadow .2s ease;
 }
 .card:hover,
 .card:focus-within{
@@ -98,20 +137,19 @@ h3{ font-size:1.15rem; margin:14px 0 6px; color:var(--c-secondaire); }
 /* ========== LISTES / LIENS ========== */
 a{ color:var(--c-primaire); text-decoration:none; }
 a:hover{ text-decoration:underline; }
-a:focus{ outline:3px solid var(--c-secondaire); outline-offset:2px; }
 
 /* ========== IMAGES ADAPTATIVES ========== */
 img.responsive{
-    max-width:100%;           /* images adaptatives */
+    max-width:100%;
     height:auto;
     border-radius:8px;
     display:block;
-    filter:saturate(1.01);    /* bonus filter */
+    filter:saturate(1.01);
 }
 
 /* ========== GALERIE (Grid moderne) ========== */
 .gallery{
-    display:grid;                                     /* CSS Grid */
+    display:grid;
     grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
     gap:var(--space-2);
 }
@@ -140,16 +178,18 @@ footer{
     border-top:1px solid #e5e7eb;
 }
 
-/* ========== BREAKPOINTS (≥2) ========== */
-@media (max-width:768px){           /* mobile-first : 320px → 768px */
+/* ========== BREAKPOINTS ========== */
+@media (max-width:768px){
     h1{ font-size:1.6rem; }
     h2{ font-size:1.2rem; }
     .container{ padding:12px; }
 }
-@media (min-width:768px) and (max-width:1023px){    /* tablette ≥768px */
+
+@media (min-width:768px) and (max-width:1023px){
     .container{ max-width:980px; }
 }
-@media (min-width:1024px){           /* desktop ≥1024px */
+
+@media (min-width:1024px){
     .container{ max-width:1100px; }
 }
 
