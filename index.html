@@ -9,8 +9,8 @@
     <meta name="description" content="CV en ligne de Brian Dobrić — ESIG Delémont (informatique de gestion), réparation PC/console/téléphone/tablette, HTML5, CSS3, C# (bases).">
     <meta name="theme-color" content="#4F9DFE">
 
-    <!-- Performance -->
-    <link rel="preload" as="image" href="logo-brian.png">
+    <!-- Performance
+    <link rel="preload" as="image" href="logo-brian.png"> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
@@ -105,17 +105,17 @@
         <div class="gallery">
 
             <figure>
-                <img class="responsive" src="img/1.webp" alt="Abstrait numérique">
+                <img class="responsive" src="img/1.webp" alt="Abstrait numérique" loading="lazy" decoding="async">
                 <figcaption>Abstrait numérique</figcaption>
             </figure>
 
             <figure>
-                <img class="responsive" src="img/2.webp" alt="Écran de travail informatique">
+                <img class="responsive" src="img/2.webp" alt="Écran de travail informatique" loading="lazy" decoding="async">
                 <figcaption>Écran de travail</figcaption>
             </figure>
 
             <figure>
-                <img class="responsive" src="img/3.webp" alt="Travail collaboratif en informatique">
+                <img class="responsive" src="img/3.webp" alt="Travail collaboratif en informatique" loading="lazy" decoding="async">
                 <figcaption>Travail collaboratif</figcaption>
             </figure>
 
@@ -139,6 +139,21 @@
 
 <footer>
     <p>&copy; 2025 — <strong>Brian Dobrić</strong>. Tous droits réservés.</p>
+
+    <div class="badges">
+        <a href="https://validator.w3.org/nu/?doc=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
+            HTML5 Validé ✔
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
+            CSS3 Validé ✔
+        </a>
+
+        <a href="https://pagespeed.web.dev/report?url=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
+            Performance certifiée 📊
+        </a>
+    </div>
+
 </footer>
 
 </body>
