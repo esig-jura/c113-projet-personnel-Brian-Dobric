@@ -16,7 +16,7 @@ Navigation intuitive entre les sections
 Sections principales : présentation, compétences, formation, expérience, galerie, contact
 Contenus : textes informatifs, images optimisées, lien e-mail direct
 
-2. 📚 Parcours d'apprentissage
+2.📚 Parcours d'apprentissage
 ---Ressources utilisées
 
 Plateformes : OpenClassrooms, ChatGPT, Gemini, YouTube, Google, Wikipédia
@@ -29,7 +29,7 @@ Avancée progressive, à mon rythme
 Amélioration notable en HTML5, CSS3 et responsive design
 Compréhension de plus en plus solide de la structure d’un site web
 
-3. 🛠️ Outils et méthodologie
+3.🛠️ Outils et méthodologie
 ---Environnement de travail
 
 IDE : WebStorm
@@ -61,7 +61,7 @@ Palette complète disponible ici :
 Police principale : Montserrat (locale, regular & bold)
 Fallback : system-ui, Roboto, Arial
 
-4. ✅ Tests et validation
+4.✅ Tests et validation
 --- Validation technique
 
 HTML Validator : valide
@@ -89,7 +89,7 @@ Contrastes conformes WCAG
 Navigation clavier OK
 Zoom 200 % lisible
 
-5. 🤖 Utilisation de l’IA
+5.🤖 Utilisation de l’IA
 ---IA utilisée
 
 ChatGPT (1.2025.258)
@@ -107,7 +107,7 @@ CSS : ~70 % personnel / 30 % aidé
 Responsive : ~80 % personnel / 20 % aidé
 Tests & validation : 100 % personnel
 
-6. 🎯 Bilan personnel
+6.🎯 Bilan personnel
 Ce que j’ai appris :
 
 Structurer proprement une page HTML
