@@ -25,10 +25,14 @@
 <a href="#apropos" class="skip-link">Aller au contenu</a>
 
 <header>
-    <!-- ✅ LOGO REMIS -->
+    <!-- LOGO -->
     <img class="logo" src="img/logo-brian.png" alt="Logo Brian Dobrić" width="140" height="140" loading="eager" decoding="async">
 
-    <h1>Brian Dobrić</h1>
+    <!-- H1 présent et invisible (consigne prof : éviter la recopie) -->
+    <h1 class="site-title">Brian Dobrić</h1>
+
+    <!-- Nom visible -->
+    <p class="name-visible" aria-hidden="true">Brian Dobrić</p>
 
     <p class="contact">
         Delémont (Jura, Suisse) ·
@@ -49,112 +53,114 @@
 </header>
 
 <main class="container">
+    <div class="reading-width">
 
-    <!-- ===== À propos ===== -->
-    <section id="apropos" class="card">
-        <h2>À propos de moi</h2>
-        <p>
-            Depuis toujours, j’ai baigné dans l’informatique. Très jeune, j’aimais déjà <em>bidouiller</em>, démonter, réparer et comprendre
-            comment les choses fonctionnent — que ce soit avec mon père, ma sœur, mon frère ou seul. C’est une passion de famille.
-        </p>
-        <p>
-            J’ai grandi à <strong>Delémont (Jura)</strong> où j’ai obtenu mon <strong>CFC de gestionnaire du commerce de détail</strong>.
-            Aujourd’hui, je combine mon expérience pratique avec une <strong>formation académique</strong> en informatique.
-        </p>
-        <p>
-            J’aime tout ce qui touche à la technologie : ordinateurs, consoles, téléphones, tablettes, sécurité, robotique, musique.
-        </p>
-    </section>
+        <!-- ===== À propos ===== -->
+        <section id="apropos" class="card">
+            <h2>À propos de moi</h2>
 
-    <!-- ===== Formation ===== -->
-    <section id="formation" class="card">
-        <h2>Formation</h2>
+            <p>
+                Depuis toujours, j’aime comprendre comment les choses fonctionnent. Très jeune déjà, je passais du temps à
+                bidouiller, démonter, réparer et chercher des solutions, seul ou en famille. Cette curiosité est rapidement
+                devenue une vraie passion pour la technologie.
+            </p>
 
-        <h3>ESIG Delémont — Informatique de gestion</h3>
-        <p><em>En cours</em>. Fondements académiques et techniques côté <strong>software</strong> et <strong>hardware</strong>.</p>
-        <p>
-            <strong>Ce que j’apprends :</strong> C# (bases), HTML5, CSS3, <strong>hardware</strong> (composants, diagnostic),
-            <strong>réseaux</strong> (connexion, configuration, sécurité) et environnement Windows.
-        </p>
+            <p>
+                Aujourd’hui, ce qui me motive est la résolution de problèmes de manière logique et structurée.
+                J’apprécie autant l’aspect matériel (composants, pannes, montage) que l’aspect logiciel
+                (configuration, optimisation, réinstallation).
+            </p>
 
-        <h3>CFC — Gestionnaire du commerce de détail</h3>
-        <p>Rigueur, gestion, relation client et travail d’équipe.</p>
-    </section>
+            <ul class="list">
+                <li>Comparer différentes options afin de choisir une solution fiable et économiquement pertinente.</li>
+                <li>Rechercher des pièces compatibles ou des alternatives adaptées pour optimiser les coûts.</li>
+                <li>Rendre un projet plus durable et cohérent sur le long terme.</li>
+            </ul>
 
-    <!-- ===== Expérience ===== -->
-    <section id="experience" class="card">
-        <h2>Expérience</h2>
-        <h3>McDonald’s Delémont — Employé polyvalent</h3>
-        <p>Accueil client, respect des procédures, travail d’équipe.</p>
-    </section>
+            <p>
+                J’ai grandi à Delémont, dans le canton du Jura, où j’ai obtenu un CFC de gestionnaire du commerce de détail.
+                Aujourd’hui, je combine cette expérience pratique avec une formation académique en informatique de gestion.
+            </p>
 
-    <!-- ===== Compétences ===== -->
-    <section id="competences" class="card">
-        <h2>Compétences</h2>
-        <ul>
-            <li>Réparation d’ordinateurs (portable et tour), consoles, manettes, <strong>téléphones</strong> et <strong>tablettes</strong>.</li>
-            <li>Diagnostic matériel/logiciel, réinstallation Windows.</li>
-            <li>Bases en C#, HTML5 et CSS3.</li>
-            <li>Notions de réseaux, sensibilisation à la sécurité.</li>
-        </ul>
-    </section>
+            <p>
+                J’aime tout ce qui touche à la technologie : ordinateurs, consoles, téléphones, tablettes,
+                sécurité, robotique et musique.
+            </p>
+        </section>
 
-    <!-- ===== Galerie ===== -->
-    <section id="galerie" class="card">
-        <h2>Galerie</h2>
+        <!-- ===== Formation ===== -->
+        <section id="formation" class="card">
+            <h2>Formation</h2>
 
-        <div class="gallery">
+            <h3>ESIG Delémont — Informatique de gestion</h3>
+            <p><em>En cours</em>. Fondements académiques et techniques côté software et hardware.</p>
+            <p>
+                <strong>Ce que j’apprends :</strong> C#, HTML5, CSS3, composants matériels, diagnostic,
+                réseaux (connexion, configuration, sécurité) et environnement Windows.
+            </p>
 
-            <figure>
-                <img class="responsive" src="img/1.webp" alt="Abstrait numérique" loading="lazy" decoding="async">
-                <figcaption>Abstrait numérique</figcaption>
-            </figure>
+            <h3>CFC — Gestionnaire du commerce de détail</h3>
+            <p>Rigueur, gestion, relation client et travail d’équipe.</p>
+        </section>
 
-            <figure>
-                <img class="responsive" src="img/2.webp" alt="Écran de travail informatique" loading="lazy" decoding="async">
-                <figcaption>Écran de travail</figcaption>
-            </figure>
+        <!-- ===== Expérience ===== -->
+        <section id="experience" class="card">
+            <h2>Expérience</h2>
 
-            <figure>
-                <img class="responsive" src="img/3.webp" alt="Travail collaboratif en informatique" loading="lazy" decoding="async">
-                <figcaption>Travail collaboratif</figcaption>
-            </figure>
+            <h3>McDonald’s Delémont — Employé polyvalent</h3>
+            <p>Accueil client, respect des procédures, travail d’équipe.</p>
+        </section>
 
-        </div>
+        <!-- ===== Compétences ===== -->
+        <section id="competences" class="card">
+            <h2>Compétences</h2>
+            <ul class="list">
+                <li>Réparation d’ordinateurs (portable et tour), consoles, manettes, téléphones et tablettes.</li>
+                <li>Diagnostic matériel et logiciel, réinstallation de systèmes Windows.</li>
+                <li>Bases en C#, HTML5 et CSS3.</li>
+                <li>Notions de réseaux et sensibilisation à la sécurité.</li>
+            </ul>
+        </section>
 
-    </section>
+        <!-- ===== Galerie ===== -->
+        <section id="galerie" class="card">
+            <h2>Galerie</h2>
 
-    <!-- ===== Langues ===== -->
-    <section id="langues" class="card">
-        <h2>Langues</h2>
-        <p>Français (maternel), allemand (bases), anglais (débutant), serbe (bases).</p>
-    </section>
+            <div class="gallery">
+                <figure>
+                    <img class="responsive" src="img/1.webp" alt="Abstrait numérique" loading="lazy" decoding="async">
+                    <figcaption>Abstrait numérique</figcaption>
+                </figure>
 
-    <!-- ===== Contact ===== -->
-    <section id="contact" class="card">
-        <h2>Contact</h2>
-        <p>📧 <a href="mailto:Brian.DobricPro@gmail.com">Brian.DobricPro@gmail.com</a> · 📍 Delémont, Jura, Suisse</p>
-    </section>
+                <figure>
+                    <img class="responsive" src="img/2.webp" alt="Écran de travail informatique" loading="lazy" decoding="async">
+                    <figcaption>Écran de travail</figcaption>
+                </figure>
 
+                <figure>
+                    <img class="responsive" src="img/3.webp" alt="Travail collaboratif" loading="lazy" decoding="async">
+                    <figcaption>Travail collaboratif</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ===== Langues ===== -->
+        <section id="langues" class="card">
+            <h2>Langues</h2>
+            <p>Français (maternel), allemand (bases), anglais (débutant), serbe (bases).</p>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>📧 <a href="mailto:Brian.DobricPro@gmail.com">Brian.DobricPro@gmail.com</a> · 📍 Delémont, Jura, Suisse</p>
+        </section>
+
+    </div>
 </main>
 
 <footer>
-    <p>&copy; 2025 — <strong>Brian Dobrić</strong>. Tous droits réservés.</p>
-
-    <div class="badges">
-        <a href="https://validator.w3.org/nu/?doc=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
-            HTML5 Validé ✔
-        </a>
-
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
-            CSS3 Validé ✔
-        </a>
-
-        <a href="https://pagespeed.web.dev/report?url=https://esig-jura.github.io/c113-projet-personnel-Brian-Dobric/" target="_blank">
-            Performance certifiée 📊
-        </a>
-    </div>
-
+    <p>&copy; 2025 — Brian Dobrić. Tous droits réservés.</p>
 </footer>
 
 </body>

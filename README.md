@@ -1,154 +1,276 @@
-Mon Projet Web MON CV EN LIGNE
+# Mon Projet Web — CV en ligne
 
-1. 🎨 Présentation du projet
+---
 
-Mon CV (présentation de ce dont je suis capable), réalisé en HTML5 / CSS3
+## 🎨 1) Présentation du projet
 
----Concept
+### 🔹 Projet
+**CV en ligne — vitrine professionnelle**
 
-Thème choisi : un CV en ligne moderne, simple et épuré
-Public cible : employeurs, clients potentiels, école
-Objectifs : présenter mes compétences, mon parcours et offrir une vitrine professionnelle claire
+### 🔹 Technologies
+**HTML5 / CSS3**
 
-Fonctionnalités proposées
+### 🔹 Thème
+**Moderne, simple et épuré**
 
-Navigation intuitive entre les sections
-Sections principales : présentation, compétences, formation, expérience, galerie, contact
-Contenus : textes informatifs, images optimisées, lien e-mail direct
+### 🔹 Public cible
+**Employeurs, clients potentiels, école**
 
-2.📚 Parcours d'apprentissage
----Ressources utilisées
+### 🔹 Objectif
+**Présenter mon parcours, mes compétences et une image professionnelle claire**
 
-Plateformes : OpenClassrooms, ChatGPT, Gemini, YouTube, Google, Wikipédia
-Tutoriels : cours OpenClassrooms HTML/CSS/Responsive + vidéos YouTube
-Documentation : MDN Web Docs et recherches personnelles
+---
 
----Progression
+### ✅ Fonctionnalités
+- **Navigation entre sections**  
+  (menu situé en haut de la page)
 
-Avancée progressive, à mon rythme
-Amélioration notable en HTML5, CSS3 et responsive design
-Compréhension de plus en plus solide de la structure d’un site web
+- **Sections principales**  
+  (À propos, Formation, Expérience, Compétences, Galerie, Langues, Contact)
 
-3.🛠️ Outils et méthodologie
----Environnement de travail
+- **Contenus optimisés**  
+  (textes informatifs, images optimisées, lien e-mail direct)
 
-IDE : WebStorm
-Navigateurs de test : Chrome (principal), Firefox, Brave, Safari (non testé)
-Gestion des versions : GitHub via WebStorm
+---
 
----Méthodologie
+## 📚 2) Parcours d’apprentissage
 
-Approche mobile-first
-Commits réguliers et messages clairs (encore améliorable)
-Tests multi-plateformes : Android (Samsung), iOS (Apple), Windows
+### 🔹 Ressources utilisées
 
-Choix de design
+- **OpenClassrooms**  
+  (cours guidés pour apprendre les bases HTML et CSS)
 
-Palette de couleurs utilisée :
+- **MDN Web Docs**  
+  (documentation officielle et fiable pour vérifier une propriété ou une balise)
 
-Couleur principale : #4F9DFE
-Couleur secondaire : #FEA34F
-Couleur tertiaire : #8ED9A6
-Couleur de fond : #F7F9FC
-Couleur de texte : #2E2E2E
-Couleur gris : #6B7280
+- **YouTube**  
+  (démonstrations et exemples pratiques)
 
-Palette complète disponible ici :
-👉 https://coolors.co/palette/4F9DFE-FEA34F-8ED9A6-F7F9FC-2E2E2E-6B7280
+- **Recherche personnelle**  
+  (comparaison de solutions, bonnes pratiques, accessibilité)
 
----Typographies :
+- **IA : ChatGPT / Gemini**  
+  (aide ponctuelle pour comprendre une erreur et améliorer la structure)
 
-Police principale : Montserrat (locale, regular & bold)
-Fallback : system-ui, Roboto, Arial
+---
 
-4.✅ Tests et validation
---- Validation technique
+### 🔹 Progression
+**Ce que j’ai réellement amélioré**
 
-HTML Validator : valide
-CSS Validator : valide
+- **HTML sémantique**  
+  (choisir correctement les balises `header`, `main`, `section`, `nav` pour une page claire)
 
-PageSpeed Insights :
+- **Structure**  
+  (organisation logique de la page : titre, sous-titre, contenu)
 
-Performance : 85/100
-Accessibilité : 95/100
-Bonnes pratiques : 90/100
-Référencement (SEO) : 85/100
+- **CSS propre**  
+  (utilisation de variables `:root` pour garder des couleurs cohérentes)
 
-Compatibilité
+- **Responsive**  
+  (adapter l’affichage sur mobile sans que le contenu soit trop compact ou trop large)
 
-Chrome fonctionne
-Firefox fonctionne
-Safari : fonctionne
-Mobile, tablette et ordinateur testés
+- **Lisibilité**  
+  (réglage des espacements et de la largeur du texte)
 
-Accessibilité
+---
 
-Attributs alt complets
-Hiérarchie des titres respectée
-Contrastes conformes WCAG
-Navigation clavier OK
-Zoom 200 % lisible
+## 🛠️ 3) Outils et méthodologie
 
-5.🤖 Utilisation de l’IA
----IA utilisée
+### 🔹 Environnement de travail
 
-ChatGPT (1.2025.258)
+- **IDE : WebStorm**  
+  (édition du code et aperçu rapide)
 
-Contexte d’utilisation
+- **Navigateurs testés**  
+  Chrome (principal), Firefox, Brave
 
-Explications de bugs et aide sur le code et sur la structure
-Conseils design et responsive
-Relectures et corrections
+- **Tests appareils**  
+  mobile, tablette, ordinateur
 
-Proportion du travail
+- **GitHub**  
+  (sauvegarde du projet et historique des versions)
 
-HTML : ~70 % personnel / 30 % aidé
-CSS : ~70 % personnel / 30 % aidé
-Responsive : ~80 % personnel / 20 % aidé
-Tests & validation : 100 % personnel
+---
 
-6.🎯 Bilan personnel
-Ce que j’ai appris :
+### 🔹 Méthodologie
 
-Structurer proprement une page HTML
-Organiser une feuille CSS avec variables et sections
-Utiliser Flexbox et ajuster le responsive
-Construire l’arborescence d’un projet web
+- **Mobile-first**  
+  (commencer par l’affichage mobile, puis adapter pour les écrans plus larges)
 
-Découvertes
+- **Commits réguliers**  
+  (petites étapes, plus simples à corriger)
 
-Importance des marges, de la cohérence visuelle et du style
-Impact du responsive sur l’expérience utilisateur
+- **Tests fréquents**  
+  (vérification après chaque modification importante)
 
-Concepts difficiles maîtrisés
+---
 
-Responsive design
-Logique des composants visuels
+## 🎨 4) Choix de design
 
-Difficultés rencontrées
+### 🔹 Palette de couleurs
 
-Erreurs de balises HTML
-Problèmes d’affichage mobile
-Organisation du code et gestion Git
+- **Couleur principale :** `#4F9DFE`  
+  (titres et liens)
 
-Solutions appliquées
+- **Couleur secondaire :** `#FEA34F`  
+  (accent visuel)
 
-Documentation MDN
-Tuto Youtube
-Tutoriels OpenClassrooms
-Tests multi-appareils
-Aide via ChatGPT
+- **Couleur de fond :** `#F7F9FC`  
+  (fond clair pour la lisibilité)
 
-Réussites et fiertés
+- **Couleur de texte :** `#2E2E2E`  
+  (contraste confortable)
 
-Un design propre, moderne et homogène
-Site totalement responsive
-Première version fonctionnelle et complète
-Progression claire depuis le début
+- **Couleur grise :** `#6B7280`  
+  (texte secondaire)
 
-Améliorations envisageables
+Palette complète :  
+https://coolors.co/palette/4F9DFE-FEA34F-8ED9A6-F7F9FC-2E2E2E-6B7280
 
-Ajouter des animations CSS
-Ajouter un mode sombre
-Réorganiser encore mieux le CSS
-Approfondir JavaScript, accessibilité avancée, performance
+---
+
+### 🔹 Typographies
+
+- **Montserrat (locale)**  
+  (chargée depuis le projet, sans dépendance à un CDN)
+
+- **Fallback**  
+  system-ui, Roboto, Arial
+
+---
+
+## ✅ 5) Tests et validation
+
+### 🔹 Validation technique
+
+- **HTML Validator**  
+  (vérifie que le HTML est correct) → ✅ valide
+
+- **CSS Validator**  
+  (vérifie que le CSS est correct) → ✅ valide
+
+---
+
+### 🔹 PageSpeed Insights
+
+- **Performance :** 85 / 100
+- **Accessibilité :** 95 / 100
+- **Bonnes pratiques :** 90 / 100
+- **SEO :** 85 / 100
+
+---
+
+### 🔹 Accessibilité
+
+- Attributs `alt` sur les images  
+  (description du contenu visuel)
+
+- Titres hiérarchisés  
+  (H2 pour les sections, H3 pour les sous-titres)
+
+- Navigation clavier  
+  (tabulation + focus visible)
+
+- Zoom 200 %  
+  (contenu lisible sans casser la mise en page)
+
+---
+
+## 🤖 6) Utilisation de l’IA
+
+### 🔹 IA utilisée
+**ChatGPT, Gemini**
+
+### 🔹 Contexte d’utilisation
+
+- Comprendre une erreur ou un comportement CSS
+- Obtenir une explication simple d’une propriété  
+  (ex. `grid`, `flex`, `max-width`)
+- Améliorer la lisibilité  
+  (espaces, tailles, structure)
+
+---
+
+### 🔹 Estimation de la proportion de travail
+
+- **HTML :** ~70 % personnel / 30 % aidé
+- **CSS :** ~70 % personnel / 30 % aidé
+- **Responsive :** ~80 % personnel / 20 % aidé
+- **Tests & validation :** 100 % personnel
+
+---
+
+## 🎯 7) Bilan personnel
+
+### 🔹 Ce que j’ai appris
+
+- Structurer une page HTML proprement  
+  (sections, navigation, hiérarchie des titres)
+
+- Organiser une feuille CSS  
+  (variables, composants, responsive)
+
+- Améliorer la lisibilité  
+  (espaces, largeur de lecture, contrastes)
+
+- Tester et valider un site  
+  (W3C, PageSpeed)
+
+---
+
+### 🔹 Difficultés rencontrées
+
+- Trouver les bons espacements  
+  (trop compact ou trop vide au début)
+
+- Garder un style cohérent  
+  (mêmes couleurs, mêmes tailles de titres)
+
+- Responsive  
+  (s’assurer que tout reste lisible sur mobile)
+
+---
+
+### 🔹 Solutions appliquées
+
+- **Documentation MDN**  
+  (site de référence pour comprendre une balise ou une propriété CSS)
+
+- **Cours OpenClassrooms**  
+  (apprentissage étape par étape avec exercices)
+
+- **Tests sur plusieurs appareils**  
+  (vérification du rendu en conditions réelles)
+
+- **Validateurs W3C**  
+  (détection et correction des erreurs HTML/CSS)
+
+- **PageSpeed**  
+  (analyse de la performance et de l’accessibilité)
+
+---
+
+### 🔹 Réussites
+
+- Design propre, moderne et homogène
+- Site responsive (mobile / tablette / PC)
+- Contenu clair et structuré
+- Bon score d’accessibilité et validation correcte
+
+---
+
+### 🔹 Améliorations possibles
+
+- Ajouter quelques animations CSS légères
+- Ajouter plusieurs pages 
+- Ajouter un mode sombre
+- Approfondir JavaScript (interactions simples)
+
+### Informations supplémentaires
+Suite aux remarques reçues en classe et en privé,  
+j’ai amélioré la lisibilité globale du site en retravaillant la hiérarchie des titres,  
+les espacements et la largeur de lecture (60 caractères),  
+tout en conservant une approche mobile first et une structure cohérente.
+
+J’ai également retravaillé le contenu textuel afin qu’il soit plus cohérent  
+et plus lisible pour le lecteur.
